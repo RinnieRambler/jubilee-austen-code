@@ -132,13 +132,14 @@ header h2 {
 .contact-image-container {
     float: left;
     width: 600px;
+    height: 400px;
 }
 
 #contact #contact-img {
     width: 500px;
     height: 300px;
-    margin: 0 50px;
-    border: 10px solid white;
+    margin: 65px 50px;
+    border: 12px solid white;
 }
 
 
@@ -171,3 +172,22 @@ header h2 {
     padding: 20px 0 5px 0;
 }
 
+#envelope-icon {
+    padding-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5E5D5E;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+footer nav ul {
+    padding: 0;
+    padding-left: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding-right: 45px;
