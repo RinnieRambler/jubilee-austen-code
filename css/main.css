@@ -154,12 +154,14 @@ header h2 {
     font-size: 36px;
     font-weight: 600;
     padding: 30px 0;
+    margin: 0;
 }
 
 #contact h3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+    margin: 0;
 }
 
 #email-header {
@@ -175,21 +177,24 @@ header h2 {
     padding-right: 10px;
 }
 
-footer a {
+#contact a {
     text-decoration: none;
     color: #5E5D5E;
     font-size: 24px;
     line-height: 36px;
 }
 
-footer nav ul {
+#contact nav ul {
     padding: 0;
     padding-left: 0;
+    margin: 0;
 }
 
-footer nav ul li {
+#contact nav ul li {
     display: inline-block;
     padding-right: 45px;
+}
+
 
 
 
@@ -197,12 +202,12 @@ footer nav ul li {
 
 /****** Projects Page Header Styles ******/
 
-header .projectpage-hero {
-    background: #F9EFEF;
-    height: 500px;
+.projectpage-hero {
+   background:  #F9EFEF;
+   height: 200px;
 }
 
-/****** Projects Styles ******/
+/****** Projects Page Projects Styles ******/
 
 #projects {
     background: #F5F5F5;
@@ -213,7 +218,7 @@ header .projectpage-hero {
     padding: 115px 0;
 }
 
-#projects .skill-list {
+#projects .project-piece {
     float: left;
     width: 300px;
     padding: 0 50px;
@@ -225,10 +230,14 @@ header .projectpage-hero {
     padding-bottom: 40px;
 }
 
+#projects img {
+    width: 300px;
+    padding-bottom: 30px;
+}
+
 #projects h3 {
     font-size: 24px;
     line-height: 36px;
-    margin: 30px 0 20px 0;
 }
 
 #projects p {
