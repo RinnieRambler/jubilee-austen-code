@@ -22,7 +22,7 @@ body {
 
 header h1 {
     float: left;
-    width: 300px;
+    width: 250px;
     font-family: 'Lora', serif ;
     font-size: 30px;
     color: #7B7E54;
@@ -30,7 +30,7 @@ header h1 {
 }
 
 header nav {
-    width: 800px;
+    width: 850px;
     float: right;
     text-align: right;
     padding: 75px 25px 75px 0;
