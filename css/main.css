@@ -22,7 +22,7 @@ body {
 
 header h1 {
     float: left;
-    width: 250px;
+    width: 300px;
     font-family: 'Lora', serif ;
     font-size: 30px;
     color: #7B7E54;
@@ -30,10 +30,10 @@ header h1 {
 }
 
 header nav {
-    width: 850px;
+    width: 800px;
     float: right;
     text-align: right;
-    padding: 75px 25px 75px;
+    padding: 75px 25px 75px 0;
 
 }
 
@@ -43,14 +43,13 @@ header nav ul li {
 
 header nav ul li a {
     color: #5E5D5E;
-    text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
     padding-left: 50px;
 }
 
 header h2 {
-    width: 1100px;
+    width: 1000px;
     clear: both;
     font-family: 'Lora', serif;
     font-size: 72px;
@@ -93,7 +92,7 @@ header h2 {
     padding: 115px 0;
 }
 
-.skill-list {
+#skills .skill-list {
     float: left;
     width: 300px;
     padding: 0 50px;
@@ -118,7 +117,7 @@ header h2 {
 }
 
 
-/****** Footer Styles ******/
+/****** Contact Styles ******/
 
 #contact {
     background: #F9E9E9;
@@ -132,14 +131,14 @@ header h2 {
 .contact-image-container {
     float: left;
     width: 600px;
-    height: 400px;
 }
 
 #contact #contact-img {
     width: 500px;
     height: 300px;
-    margin: 65px 50px;
+    margin: 0 50px;
     border: 12px solid white;
+    box-sizing: border-box;
 }
 
 
@@ -191,3 +190,49 @@ footer nav ul {
 footer nav ul li {
     display: inline-block;
     padding-right: 45px;
+
+
+
+/****** Projects Page Styles ******/
+
+/****** Projects Page Header Styles ******/
+
+header .projectpage-hero {
+    background: #F9EFEF;
+    height: 500px;
+}
+
+/****** Projects Styles ******/
+
+#projects {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#projects .content-wrapper {
+    padding: 115px 0;
+}
+
+#projects .skill-list {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+
+#projects h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#projects h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+#projects p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
