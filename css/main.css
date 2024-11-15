@@ -43,14 +43,13 @@ header nav ul li {
 
 header nav ul li a {
     color: #5E5D5E;
-    text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
-    padding-left: 80px;
+    padding-left: 50px;
 }
 
 header h2 {
-    width: 1100px;
+    width: 1000px;
     clear: both;
     font-family: 'Lora', serif;
     font-size: 72px;
@@ -93,7 +92,7 @@ header h2 {
     padding: 115px 0;
 }
 
-.skill-list {
+#skills .skill-list {
     float: left;
     width: 300px;
     padding: 0 50px;
@@ -138,7 +137,8 @@ header h2 {
     width: 500px;
     height: 300px;
     margin: 0 50px;
-    border: 10px solid white;
+    border: 12px solid white;
+    box-sizing: border-box;
 }
 
 
@@ -154,12 +154,14 @@ header h2 {
     font-size: 36px;
     font-weight: 600;
     padding: 30px 0;
+    margin: 0;
 }
 
 #contact h3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+    margin: 0;
 }
 
 #email-header {
@@ -171,3 +173,75 @@ header h2 {
     padding: 20px 0 5px 0;
 }
 
+#envelope-icon {
+    padding-right: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #5E5D5E;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#contact nav ul {
+    padding: 0;
+    padding-left: 0;
+    margin: 0;
+}
+
+#contact nav ul li {
+    display: inline-block;
+    padding-right: 45px;
+}
+
+
+
+
+/****** Projects Page Styles ******/
+
+/****** Projects Page Header Styles ******/
+
+.projectpage-hero {
+   background:  #F9EFEF;
+   height: 200px;
+}
+
+/****** Projects Page Projects Styles ******/
+
+#projects {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+#projects .content-wrapper {
+    padding: 115px 0;
+}
+
+#projects .project-piece {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+
+#projects h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#projects img {
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+#projects h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#projects p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
